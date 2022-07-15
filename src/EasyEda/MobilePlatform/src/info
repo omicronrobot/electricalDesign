@@ -1,0 +1,914 @@
+{
+  "uuid": "3d99231d7ff38e806e8ec46bc7d038d0",
+  "path": "Offline/omicronPlatform",
+  "name": "omicronPlatform",
+  "content": "",
+  "created_at": "2022-07-14 23:58:12",
+  "updated_at": "2022-07-15 22:07:17",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "cc2b8f7abb55c6d237ca5cf93c9f7a1d",
+      "title": "main",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a58c3033836f4ef08df396372f4adb66": 1,
+        "514dddbe856146039fcd033ae29bc39f": 8,
+        "a1846ac68a1949c7a1cdc2c6fb6679d1": 1,
+        "71d294718bdf4cc0a93eb2e6656e7b3e": 2,
+        "05a6e624ad284de89c87b11cd299b13f": 1,
+        "b073fa5be9fa4a71894dcbda97a795cc": 2,
+        "f545d9c3ddf34f0aab42185f59d87f3a": 2,
+        "9245ecc39a8a4441a6fa007014df13e0": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10uF",
+          1,
+          "CAP-TH_L5.0-W2.5-P5.08-D0.7",
+          "C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C254090",
+            "BOM_Manufacturer": "Dersonic",
+            "BOM_Manufacturer Part": "CC1H104ZC14D3F5O10MF",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e609923febba487d930e816587043b51",
+            "uuid": "f545d9c3ddf34f0aab42185f59d87f3a"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "CAP-TH_L5.0-W2.5-P5.08-D0.7",
+          "C2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C254090",
+            "BOM_Manufacturer": "Dersonic",
+            "BOM_Manufacturer Part": "CC1H104ZC14D3F5O10MF",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e609923febba487d930e816587043b51",
+            "uuid": "f545d9c3ddf34f0aab42185f59d87f3a"
+          }
+        ],
+        [
+          "JST_2PIN-THM-RA",
+          1,
+          "JST-PH-2-THM-RA",
+          "CN1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "e7b3f7a1511942f8a2237d711411aa9f",
+            "uuid": "05a6e624ad284de89c87b11cd299b13f"
+          }
+        ],
+        [
+          "BLUEPILL",
+          1,
+          "BLUEPILL",
+          "G$1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "4c5d6055469d454d91223f02f77f3a52",
+            "uuid": "a58c3033836f4ef08df396372f4adb66"
+          }
+        ],
+        [
+          "204-10SUBC/C470/S400-A4",
+          2,
+          "LED-TH_BD4.0-P2.54-FD",
+          "LED1,LED2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C86726",
+            "BOM_Manufacturer": "Everlight Elec",
+            "BOM_Manufacturer Part": "204-10SUBC/C470/S400-A4",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f81d60139e1d495cb16947e44f36d764",
+            "uuid": "71d294718bdf4cc0a93eb2e6656e7b3e"
+          }
+        ],
+        [
+          "1K",
+          2,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R1,R5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "100",
+          2,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R2,R4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "1.2K",
+          1,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "10K",
+          3,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R6,R7,R8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "TAC_SWITCH",
+          2,
+          "TACTILE-PTH",
+          "S1,S2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "3ce14a6b4961469894f0d82b296c83a6",
+            "uuid": "b073fa5be9fa4a71894dcbda97a795cc"
+          }
+        ],
+        [
+          "DIODE-ZENER5V1",
+          1,
+          "DIODE-ZENER",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "a43ca59882634fb5b64dbe94b2c5e04e",
+            "uuid": "a1846ac68a1949c7a1cdc2c6fb6679d1"
+          }
+        ],
+        [
+          "ESP12f",
+          1,
+          "ESP12F",
+          "U2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "2665e92154be4f9585bb304aa7a29b20",
+            "uuid": "9245ecc39a8a4441a6fa007014df13e0"
+          }
+        ],
+        [
+          "MPU6050",
+          1,
+          "MPU6050",
+          "P1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "03db1a806f584e7e8000f984f718aa6e",
+            "uuid": "3571936591d3447eae8ebe7c26a9fd83"
+          }
+        ],
+        [
+          "150",
+          8,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R9,R10,R11,R15,R16,R17,R21,R22",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "51",
+          8,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R12,R13,R14,R18,R19,R20,R23,R24",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "SN74HC165N",
+          1,
+          "DIP-16_L19.8-W6.5-P2.54-LS7.6-BL",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TI",
+            "BOM_Manufacturer Part": "SN74HC165N",
+            "BOM_Supplier Part": "C2909",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "1f423f14388b4b17afc87646625a53f6",
+            "uuid": "427f119159784536b490f25e1734a2b9"
+          }
+        ],
+        [
+          "1N4001-G",
+          16,
+          "SEEED-DO-41",
+          "D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16",
+          {
+            "BOM_Manufacturer Part": "1N4001-G",
+            "puuid": "94c5046b7804407bb57edf17d8b39f9e",
+            "uuid": "0f6d6193c3524290b41143a8844a44cb"
+          }
+        ],
+        [
+          "M04JST-PTH",
+          4,
+          "JST-4-PTH",
+          "JP1,JP2,JP3,JP4",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "c9a5465ae8684a29a982cea27286fe58",
+            "uuid": "95831707a57345b5a561a15d998cb92e"
+          }
+        ],
+        [
+          "L293D",
+          4,
+          "L293D",
+          "L1,L2,L3,L4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C504385",
+            "BOM_Manufacturer": "Gcore",
+            "BOM_Manufacturer Part": "L293D",
+            "puuid": "de8773bb073d4a3da15a5f7da53b68af",
+            "uuid": "6dd7345663764eea93a30e32e5b089a2"
+          }
+        ]
+      ],
+      "updateTime": 1657911935,
+      "createTime": 1657853881,
+      "histories": [],
+      "created_at": "2022-07-15 05:58:01",
+      "updated_at": "2022-07-15 22:05:35"
+    },
+    {
+      "uuid": "053fe54d356aeb63a63b681ccbd4d41f",
+      "title": "sensory",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3571936591d3447eae8ebe7c26a9fd83": 1,
+        "514dddbe856146039fcd033ae29bc39f": 16,
+        "427f119159784536b490f25e1734a2b9": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10uF",
+          1,
+          "CAP-TH_L5.0-W2.5-P5.08-D0.7",
+          "C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C254090",
+            "BOM_Manufacturer": "Dersonic",
+            "BOM_Manufacturer Part": "CC1H104ZC14D3F5O10MF",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e609923febba487d930e816587043b51",
+            "uuid": "f545d9c3ddf34f0aab42185f59d87f3a"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "CAP-TH_L5.0-W2.5-P5.08-D0.7",
+          "C2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C254090",
+            "BOM_Manufacturer": "Dersonic",
+            "BOM_Manufacturer Part": "CC1H104ZC14D3F5O10MF",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e609923febba487d930e816587043b51",
+            "uuid": "f545d9c3ddf34f0aab42185f59d87f3a"
+          }
+        ],
+        [
+          "JST_2PIN-THM-RA",
+          1,
+          "JST-PH-2-THM-RA",
+          "CN1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "e7b3f7a1511942f8a2237d711411aa9f",
+            "uuid": "05a6e624ad284de89c87b11cd299b13f"
+          }
+        ],
+        [
+          "BLUEPILL",
+          1,
+          "BLUEPILL",
+          "G$1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "4c5d6055469d454d91223f02f77f3a52",
+            "uuid": "a58c3033836f4ef08df396372f4adb66"
+          }
+        ],
+        [
+          "204-10SUBC/C470/S400-A4",
+          2,
+          "LED-TH_BD4.0-P2.54-FD",
+          "LED1,LED2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C86726",
+            "BOM_Manufacturer": "Everlight Elec",
+            "BOM_Manufacturer Part": "204-10SUBC/C470/S400-A4",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f81d60139e1d495cb16947e44f36d764",
+            "uuid": "71d294718bdf4cc0a93eb2e6656e7b3e"
+          }
+        ],
+        [
+          "1K",
+          2,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R1,R5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "100",
+          2,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R2,R4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "1.2K",
+          1,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "10K",
+          3,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R6,R7,R8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "TAC_SWITCH",
+          2,
+          "TACTILE-PTH",
+          "S1,S2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "3ce14a6b4961469894f0d82b296c83a6",
+            "uuid": "b073fa5be9fa4a71894dcbda97a795cc"
+          }
+        ],
+        [
+          "DIODE-ZENER5V1",
+          1,
+          "DIODE-ZENER",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "a43ca59882634fb5b64dbe94b2c5e04e",
+            "uuid": "a1846ac68a1949c7a1cdc2c6fb6679d1"
+          }
+        ],
+        [
+          "ESP12f",
+          1,
+          "ESP12F",
+          "U2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "2665e92154be4f9585bb304aa7a29b20",
+            "uuid": "9245ecc39a8a4441a6fa007014df13e0"
+          }
+        ],
+        [
+          "MPU6050",
+          1,
+          "MPU6050",
+          "P1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "03db1a806f584e7e8000f984f718aa6e",
+            "uuid": "3571936591d3447eae8ebe7c26a9fd83"
+          }
+        ],
+        [
+          "150",
+          8,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R9,R10,R11,R15,R16,R17,R21,R22",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "51",
+          8,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R12,R13,R14,R18,R19,R20,R23,R24",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "SN74HC165N",
+          1,
+          "DIP-16_L19.8-W6.5-P2.54-LS7.6-BL",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TI",
+            "BOM_Manufacturer Part": "SN74HC165N",
+            "BOM_Supplier Part": "C2909",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "1f423f14388b4b17afc87646625a53f6",
+            "uuid": "427f119159784536b490f25e1734a2b9"
+          }
+        ],
+        [
+          "1N4001-G",
+          16,
+          "SEEED-DO-41",
+          "D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16",
+          {
+            "BOM_Manufacturer Part": "1N4001-G",
+            "puuid": "94c5046b7804407bb57edf17d8b39f9e",
+            "uuid": "0f6d6193c3524290b41143a8844a44cb"
+          }
+        ],
+        [
+          "M04JST-PTH",
+          4,
+          "JST-4-PTH",
+          "JP1,JP2,JP3,JP4",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "c9a5465ae8684a29a982cea27286fe58",
+            "uuid": "95831707a57345b5a561a15d998cb92e"
+          }
+        ],
+        [
+          "L293D",
+          4,
+          "L293D",
+          "L1,L2,L3,L4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C504385",
+            "BOM_Manufacturer": "Gcore",
+            "BOM_Manufacturer Part": "L293D",
+            "puuid": "de8773bb073d4a3da15a5f7da53b68af",
+            "uuid": "6dd7345663764eea93a30e32e5b089a2"
+          }
+        ]
+      ],
+      "updateTime": 1657884968,
+      "createTime": 1657854983,
+      "histories": [],
+      "created_at": "2022-07-15 06:16:23",
+      "updated_at": "2022-07-15 14:36:08"
+    },
+    {
+      "uuid": "abc6e77668be36aec0aa2bd48c73451b",
+      "title": "motorDriver",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "6dd7345663764eea93a30e32e5b089a2": 4,
+        "0f6d6193c3524290b41143a8844a44cb": 16,
+        "95831707a57345b5a561a15d998cb92e": 4
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10uF",
+          1,
+          "CAP-TH_L5.0-W2.5-P5.08-D0.7",
+          "C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C254090",
+            "BOM_Manufacturer": "Dersonic",
+            "BOM_Manufacturer Part": "CC1H104ZC14D3F5O10MF",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e609923febba487d930e816587043b51",
+            "uuid": "f545d9c3ddf34f0aab42185f59d87f3a"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "CAP-TH_L5.0-W2.5-P5.08-D0.7",
+          "C2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C254090",
+            "BOM_Manufacturer": "Dersonic",
+            "BOM_Manufacturer Part": "CC1H104ZC14D3F5O10MF",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e609923febba487d930e816587043b51",
+            "uuid": "f545d9c3ddf34f0aab42185f59d87f3a"
+          }
+        ],
+        [
+          "JST_2PIN-THM-RA",
+          1,
+          "JST-PH-2-THM-RA",
+          "CN1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "e7b3f7a1511942f8a2237d711411aa9f",
+            "uuid": "05a6e624ad284de89c87b11cd299b13f"
+          }
+        ],
+        [
+          "BLUEPILL",
+          1,
+          "BLUEPILL",
+          "G$1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "4c5d6055469d454d91223f02f77f3a52",
+            "uuid": "a58c3033836f4ef08df396372f4adb66"
+          }
+        ],
+        [
+          "204-10SUBC/C470/S400-A4",
+          2,
+          "LED-TH_BD4.0-P2.54-FD",
+          "LED1,LED2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C86726",
+            "BOM_Manufacturer": "Everlight Elec",
+            "BOM_Manufacturer Part": "204-10SUBC/C470/S400-A4",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f81d60139e1d495cb16947e44f36d764",
+            "uuid": "71d294718bdf4cc0a93eb2e6656e7b3e"
+          }
+        ],
+        [
+          "1K",
+          2,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R1,R5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "100",
+          2,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R2,R4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "1.2K",
+          1,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "10K",
+          3,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R6,R7,R8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "TAC_SWITCH",
+          2,
+          "TACTILE-PTH",
+          "S1,S2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "3ce14a6b4961469894f0d82b296c83a6",
+            "uuid": "b073fa5be9fa4a71894dcbda97a795cc"
+          }
+        ],
+        [
+          "DIODE-ZENER5V1",
+          1,
+          "DIODE-ZENER",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "a43ca59882634fb5b64dbe94b2c5e04e",
+            "uuid": "a1846ac68a1949c7a1cdc2c6fb6679d1"
+          }
+        ],
+        [
+          "ESP12f",
+          1,
+          "ESP12F",
+          "U2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "2665e92154be4f9585bb304aa7a29b20",
+            "uuid": "9245ecc39a8a4441a6fa007014df13e0"
+          }
+        ],
+        [
+          "MPU6050",
+          1,
+          "MPU6050",
+          "P1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "03db1a806f584e7e8000f984f718aa6e",
+            "uuid": "3571936591d3447eae8ebe7c26a9fd83"
+          }
+        ],
+        [
+          "150",
+          8,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R9,R10,R11,R15,R16,R17,R21,R22",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "51",
+          8,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R12,R13,R14,R18,R19,R20,R23,R24",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "SN74HC165N",
+          1,
+          "DIP-16_L19.8-W6.5-P2.54-LS7.6-BL",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TI",
+            "BOM_Manufacturer Part": "SN74HC165N",
+            "BOM_Supplier Part": "C2909",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "1f423f14388b4b17afc87646625a53f6",
+            "uuid": "427f119159784536b490f25e1734a2b9"
+          }
+        ],
+        [
+          "1N4001-G",
+          16,
+          "SEEED-DO-41",
+          "D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16",
+          {
+            "BOM_Manufacturer Part": "1N4001-G",
+            "puuid": "94c5046b7804407bb57edf17d8b39f9e",
+            "uuid": "0f6d6193c3524290b41143a8844a44cb"
+          }
+        ],
+        [
+          "M04JST-PTH",
+          4,
+          "JST-4-PTH",
+          "JP1,JP2,JP3,JP4",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "c9a5465ae8684a29a982cea27286fe58",
+            "uuid": "95831707a57345b5a561a15d998cb92e"
+          }
+        ],
+        [
+          "L293D",
+          4,
+          "L293D",
+          "L1,L2,L3,L4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C504385",
+            "BOM_Manufacturer": "Gcore",
+            "BOM_Manufacturer Part": "L293D",
+            "puuid": "de8773bb073d4a3da15a5f7da53b68af",
+            "uuid": "6dd7345663764eea93a30e32e5b089a2"
+          }
+        ]
+      ],
+      "updateTime": 1657884966,
+      "createTime": 1657832292,
+      "histories": [],
+      "created_at": "2022-07-14 23:58:12",
+      "updated_at": "2022-07-15 14:36:06"
+    },
+    {
+      "uuid": "7f39921b28449dc03e8da0f2a9e78949",
+      "puuid": "3d99231d7ff38e806e8ec46bc7d038d0",
+      "title": "PCB_omicronPlatform",
+      "filename": "PCB_omicronPlatform.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e609923febba487d930e816587043b51": 2,
+        "e7b3f7a1511942f8a2237d711411aa9f": 1,
+        "94c5046b7804407bb57edf17d8b39f9e": 16,
+        "4c5d6055469d454d91223f02f77f3a52": 1,
+        "c9a5465ae8684a29a982cea27286fe58": 4,
+        "de8773bb073d4a3da15a5f7da53b68af": 4,
+        "f81d60139e1d495cb16947e44f36d764": 2,
+        "03db1a806f584e7e8000f984f718aa6e": 1,
+        "666264fd42b84465ad050a9517cab8cf": 24,
+        "3ce14a6b4961469894f0d82b296c83a6": 2,
+        "a43ca59882634fb5b64dbe94b2c5e04e": 1,
+        "2665e92154be4f9585bb304aa7a29b20": 1,
+        "1f423f14388b4b17afc87646625a53f6": 1
+      },
+      "BOM": [],
+      "updateTime": 1657912037,
+      "createTime": 1657885551,
+      "histories": [],
+      "created_at": "2022-07-15 14:45:51",
+      "updated_at": "2022-07-15 22:07:17"
+    }
+  ],
+  "sort": [
+    "cc2b8f7abb55c6d237ca5cf93c9f7a1d",
+    "053fe54d356aeb63a63b681ccbd4d41f",
+    "abc6e77668be36aec0aa2bd48c73451b"
+  ],
+  "title": "omicronPlatform",
+  "foldername": "omicronPlatform",
+  "schfilename": "omicronPlatform.json",
+  "schfilemtime": 1657911935990
+}

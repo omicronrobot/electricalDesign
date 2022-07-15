@@ -1,0 +1,282 @@
+{
+  "uuid": "2d1d9b19866284253fb0b6b088539de1",
+  "path": "Offline/omicronHandMotion",
+  "name": "omicronHandMotion",
+  "content": "",
+  "created_at": "2022-07-14 22:00:39",
+  "updated_at": "2022-07-15 22:22:07",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "843e06fc4c83b6e9dd5800a1112292e6",
+      "title": "schematic",
+      "description": "",
+      "docType": "1",
+      "master": "c409394a2e01b8fa601a2e23268b6d9b",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "9245ecc39a8a4441a6fa007014df13e0": 1,
+        "514dddbe856146039fcd033ae29bc39f": 8,
+        "f545d9c3ddf34f0aab42185f59d87f3a": 2,
+        "05a6e624ad284de89c87b11cd299b13f": 1,
+        "3571936591d3447eae8ebe7c26a9fd83": 1,
+        "1ae60609edcb859d8c7e885be62b78ae": 1,
+        "71d294718bdf4cc0a93eb2e6656e7b3e": 2,
+        "a1846ac68a1949c7a1cdc2c6fb6679d1": 1,
+        "b073fa5be9fa4a71894dcbda97a795cc": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10uF",
+          1,
+          "CAP-TH_L5.0-W2.5-P5.08-D0.7",
+          "C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C254090",
+            "BOM_Manufacturer": "Dersonic",
+            "BOM_Manufacturer Part": "CC1H104ZC14D3F5O10MF",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e609923febba487d930e816587043b51",
+            "uuid": "f545d9c3ddf34f0aab42185f59d87f3a"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "CAP-TH_L5.0-W2.5-P5.08-D0.7",
+          "C2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C254090",
+            "BOM_Manufacturer": "Dersonic",
+            "BOM_Manufacturer Part": "CC1H104ZC14D3F5O10MF",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e609923febba487d930e816587043b51",
+            "uuid": "f545d9c3ddf34f0aab42185f59d87f3a"
+          }
+        ],
+        [
+          "JST_2PIN-THM-RA",
+          1,
+          "JST-PH-2-THM-RA",
+          "CN1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "e7b3f7a1511942f8a2237d711411aa9f",
+            "uuid": "05a6e624ad284de89c87b11cd299b13f"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x4_C59481",
+          1,
+          "HDR-TH_4P-P2.54-V",
+          "H1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "Headers  Pins 1*4P",
+            "BOM_Supplier Part": "C59481",
+            "puuid": "31a453d5adfc45cea944a6450adf2918",
+            "uuid": "1ae60609edcb859d8c7e885be62b78ae"
+          }
+        ],
+        [
+          "204-10SUBC/C470/S400-A4",
+          2,
+          "LED-TH_BD4.0-P2.54-FD",
+          "LED1,LED2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C86726",
+            "BOM_Manufacturer": "Everlight Elec",
+            "BOM_Manufacturer Part": "204-10SUBC/C470/S400-A4",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f81d60139e1d495cb16947e44f36d764",
+            "uuid": "71d294718bdf4cc0a93eb2e6656e7b3e"
+          }
+        ],
+        [
+          "MPU6050",
+          1,
+          "MPU6050",
+          "P1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "03db1a806f584e7e8000f984f718aa6e",
+            "uuid": "3571936591d3447eae8ebe7c26a9fd83"
+          }
+        ],
+        [
+          "1K",
+          2,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R1,R4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "100",
+          2,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R2,R8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "1.2K",
+          1,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "10K",
+          3,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R5,R6,R7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "TAC_SWITCH",
+          2,
+          "TACTILE-PTH",
+          "S1,S2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "3ce14a6b4961469894f0d82b296c83a6",
+            "uuid": "b073fa5be9fa4a71894dcbda97a795cc"
+          }
+        ],
+        [
+          "DIODE-ZENER",
+          1,
+          "DIODE-ZENER",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "a43ca59882634fb5b64dbe94b2c5e04e",
+            "uuid": "a1846ac68a1949c7a1cdc2c6fb6679d1"
+          }
+        ],
+        [
+          "ESP12f",
+          1,
+          "ESP12F",
+          "U2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "2665e92154be4f9585bb304aa7a29b20",
+            "uuid": "9245ecc39a8a4441a6fa007014df13e0"
+          }
+        ]
+      ],
+      "updateTime": 1657912927,
+      "createTime": 1657825239,
+      "histories": [],
+      "created_at": "2022-07-14 22:00:39",
+      "updated_at": "2022-07-15 22:22:07"
+    },
+    {
+      "uuid": "3f285f1ea24345762dba106b128b3f9e",
+      "puuid": "2d1d9b19866284253fb0b6b088539de1",
+      "title": "manual",
+      "filename": "manual.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e609923febba487d930e816587043b51": 2,
+        "e7b3f7a1511942f8a2237d711411aa9f": 1,
+        "31a453d5adfc45cea944a6450adf2918": 1,
+        "f81d60139e1d495cb16947e44f36d764": 2,
+        "03db1a806f584e7e8000f984f718aa6e": 1,
+        "2665e92154be4f9585bb304aa7a29b20": 1,
+        "a43ca59882634fb5b64dbe94b2c5e04e": 1,
+        "666264fd42b84465ad050a9517cab8cf": 8,
+        "3ce14a6b4961469894f0d82b296c83a6": 2
+      },
+      "BOM": [],
+      "updateTime": 1657858292,
+      "createTime": 1657828265,
+      "histories": [],
+      "created_at": "2022-07-14 22:51:05",
+      "updated_at": "2022-07-15 07:11:32"
+    },
+    {
+      "uuid": "6a58f8d34850caf7a8df24d63db66433",
+      "puuid": "2d1d9b19866284253fb0b6b088539de1",
+      "title": "jlcpcb",
+      "filename": "jlcpcb.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3ce14a6b4961469894f0d82b296c83a6": 2,
+        "f81d60139e1d495cb16947e44f36d764": 2,
+        "e609923febba487d930e816587043b51": 2,
+        "e7b3f7a1511942f8a2237d711411aa9f": 1,
+        "31a453d5adfc45cea944a6450adf2918": 1,
+        "03db1a806f584e7e8000f984f718aa6e": 1,
+        "a43ca59882634fb5b64dbe94b2c5e04e": 1,
+        "2665e92154be4f9585bb304aa7a29b20": 1,
+        "666264fd42b84465ad050a9517cab8cf": 8
+      },
+      "BOM": [],
+      "updateTime": 1657857443,
+      "createTime": 1657830626,
+      "histories": [],
+      "created_at": "2022-07-14 23:30:26",
+      "updated_at": "2022-07-15 06:57:23"
+    }
+  ],
+  "sort": [],
+  "title": "omicronHandMotion",
+  "foldername": "omicronHandMotion",
+  "schfilename": "omicronHandMotion.json",
+  "schfilemtime": 1657912927793
+}
