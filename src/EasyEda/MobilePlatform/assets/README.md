@@ -1,3 +1,13 @@
 # Assets
 
-This directory contains the assets files used in the [README](./../README.md)
+## Schematic
+
+![Schematic](Schematic.png)
+
+## PCB Top
+
+![PCB Top](pcb_top.png)
+
+## PCB Bottom
+
+![PCB Bottom](pcb_bottom.png)
