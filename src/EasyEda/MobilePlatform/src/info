@@ -4,7 +4,7 @@
   "name": "omicronPlatform",
   "content": "",
   "created_at": "2022-07-14 23:58:12",
-  "updated_at": "2022-07-22 23:18:07",
+  "updated_at": "2022-08-08 12:43:57",
   "stick": "",
   "documents": [
     {
@@ -12,17 +12,17 @@
       "title": "main",
       "description": "",
       "docType": "1",
-      "master": "e537d7469e73a76a2de65469f87a7a1c",
+      "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
         "a58c3033836f4ef08df396372f4adb66": 1,
         "71d294718bdf4cc0a93eb2e6656e7b3e": 2,
-        "514dddbe856146039fcd033ae29bc39f": 8,
-        "a1846ac68a1949c7a1cdc2c6fb6679d1": 1,
+        "514dddbe856146039fcd033ae29bc39f": 6,
         "05a6e624ad284de89c87b11cd299b13f": 1,
         "b073fa5be9fa4a71894dcbda97a795cc": 2,
-        "f545d9c3ddf34f0aab42185f59d87f3a": 2,
-        "9245ecc39a8a4441a6fa007014df13e0": 1
+        "f545d9c3ddf34f0aab42185f59d87f3a": 4,
+        "9245ecc39a8a4441a6fa007014df13e0": 1,
+        "0824b23ff8144e4f86e2984cd783e258": 1
       },
       "BOM": [
         [
@@ -34,9 +34,9 @@
         ],
         [
           "10uF",
-          1,
+          3,
           "CAP-TH_L5.0-W2.5-P5.08-D0.7",
-          "C1",
+          "C1,C2,C3",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C254090",
@@ -51,7 +51,7 @@
           "100nF",
           1,
           "CAP-TH_L5.0-W2.5-P5.08-D0.7",
-          "C2",
+          "C4",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C254090",
@@ -102,25 +102,10 @@
           }
         ],
         [
-          "1K",
-          2,
-          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
-          "R1,R5",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C119263",
-            "BOM_Manufacturer": "Chian Chia Elec",
-            "BOM_Manufacturer Part": "-",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "666264fd42b84465ad050a9517cab8cf",
-            "uuid": "514dddbe856146039fcd033ae29bc39f"
-          }
-        ],
-        [
           "100",
           2,
           "RES-TH_BD2.2-L6.5-P10.50-D0.6",
-          "R2,R4",
+          "R1,R2",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C119263",
@@ -132,7 +117,7 @@
           }
         ],
         [
-          "1.2K",
+          "1K",
           1,
           "RES-TH_BD2.2-L6.5-P10.50-D0.6",
           "R3",
@@ -150,7 +135,7 @@
           "10K",
           3,
           "RES-TH_BD2.2-L6.5-P10.50-D0.6",
-          "R6,R7,R8",
+          "R4,R5,R6",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C119263",
@@ -173,14 +158,18 @@
           }
         ],
         [
-          "DIODE-ZENER5V1",
+          "AMS1117-5V",
           1,
-          "DIODE-ZENER",
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
           "U1",
           {
-            "BOM_Manufacturer Part": "",
-            "puuid": "a43ca59882634fb5b64dbe94b2c5e04e",
-            "uuid": "a1846ac68a1949c7a1cdc2c6fb6679d1"
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C845412",
+            "BOM_Manufacturer": "TF",
+            "BOM_Manufacturer Part": "1117-1.8V",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "02ae667aca734971be8a5f58143dd564",
+            "uuid": "0824b23ff8144e4f86e2984cd783e258"
           }
         ],
         [
@@ -228,7 +217,7 @@
           "150",
           8,
           "RES-TH_BD2.2-L6.5-P10.50-D0.6",
-          "R9,R10,R11,R15,R16,R17,R21,R22",
+          "R7,R8,R9,R10,R15,R16,R17,R18",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C119263",
@@ -243,7 +232,7 @@
           "51",
           8,
           "RES-TH_BD2.2-L6.5-P10.50-D0.6",
-          "R12,R13,R14,R18,R19,R20,R23,R24",
+          "R11,R12,R13,R14,R19,R20,R21,R22",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C119263",
@@ -309,11 +298,11 @@
           }
         ]
       ],
-      "updateTime": 1658521087,
+      "updateTime": 1659951753,
       "createTime": 1657853881,
       "histories": [],
       "created_at": "2022-07-15 05:58:01",
-      "updated_at": "2022-07-22 23:18:07"
+      "updated_at": "2022-08-08 12:42:33"
     },
     {
       "uuid": "053fe54d356aeb63a63b681ccbd4d41f",
@@ -338,9 +327,9 @@
         ],
         [
           "10uF",
-          1,
+          3,
           "CAP-TH_L5.0-W2.5-P5.08-D0.7",
-          "C1",
+          "C1,C2,C3",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C254090",
@@ -355,7 +344,7 @@
           "100nF",
           1,
           "CAP-TH_L5.0-W2.5-P5.08-D0.7",
-          "C2",
+          "C4",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C254090",
@@ -406,25 +395,10 @@
           }
         ],
         [
-          "1K",
-          2,
-          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
-          "R1,R5",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C119263",
-            "BOM_Manufacturer": "Chian Chia Elec",
-            "BOM_Manufacturer Part": "-",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "666264fd42b84465ad050a9517cab8cf",
-            "uuid": "514dddbe856146039fcd033ae29bc39f"
-          }
-        ],
-        [
           "100",
           2,
           "RES-TH_BD2.2-L6.5-P10.50-D0.6",
-          "R2,R4",
+          "R1,R2",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C119263",
@@ -436,7 +410,7 @@
           }
         ],
         [
-          "1.2K",
+          "1K",
           1,
           "RES-TH_BD2.2-L6.5-P10.50-D0.6",
           "R3",
@@ -454,7 +428,7 @@
           "10K",
           3,
           "RES-TH_BD2.2-L6.5-P10.50-D0.6",
-          "R6,R7,R8",
+          "R4,R5,R6",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C119263",
@@ -477,14 +451,18 @@
           }
         ],
         [
-          "DIODE-ZENER5V1",
+          "AMS1117-5V",
           1,
-          "DIODE-ZENER",
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
           "U1",
           {
-            "BOM_Manufacturer Part": "",
-            "puuid": "a43ca59882634fb5b64dbe94b2c5e04e",
-            "uuid": "a1846ac68a1949c7a1cdc2c6fb6679d1"
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C845412",
+            "BOM_Manufacturer": "TF",
+            "BOM_Manufacturer Part": "1117-1.8V",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "02ae667aca734971be8a5f58143dd564",
+            "uuid": "0824b23ff8144e4f86e2984cd783e258"
           }
         ],
         [
@@ -532,7 +510,7 @@
           "150",
           8,
           "RES-TH_BD2.2-L6.5-P10.50-D0.6",
-          "R9,R10,R11,R15,R16,R17,R21,R22",
+          "R7,R8,R9,R10,R15,R16,R17,R18",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C119263",
@@ -547,7 +525,7 @@
           "51",
           8,
           "RES-TH_BD2.2-L6.5-P10.50-D0.6",
-          "R12,R13,R14,R18,R19,R20,R23,R24",
+          "R11,R12,R13,R14,R19,R20,R21,R22",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C119263",
@@ -613,11 +591,11 @@
           }
         ]
       ],
-      "updateTime": 1658519544,
+      "updateTime": 1659949937,
       "createTime": 1657854983,
       "histories": [],
       "created_at": "2022-07-15 06:16:23",
-      "updated_at": "2022-07-22 22:52:24"
+      "updated_at": "2022-08-08 12:12:17"
     },
     {
       "uuid": "abc6e77668be36aec0aa2bd48c73451b",
@@ -641,9 +619,9 @@
         ],
         [
           "10uF",
-          1,
+          3,
           "CAP-TH_L5.0-W2.5-P5.08-D0.7",
-          "C1",
+          "C1,C2,C3",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C254090",
@@ -658,7 +636,7 @@
           "100nF",
           1,
           "CAP-TH_L5.0-W2.5-P5.08-D0.7",
-          "C2",
+          "C4",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C254090",
@@ -709,25 +687,10 @@
           }
         ],
         [
-          "1K",
-          2,
-          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
-          "R1,R5",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C119263",
-            "BOM_Manufacturer": "Chian Chia Elec",
-            "BOM_Manufacturer Part": "-",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "666264fd42b84465ad050a9517cab8cf",
-            "uuid": "514dddbe856146039fcd033ae29bc39f"
-          }
-        ],
-        [
           "100",
           2,
           "RES-TH_BD2.2-L6.5-P10.50-D0.6",
-          "R2,R4",
+          "R1,R2",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C119263",
@@ -739,7 +702,7 @@
           }
         ],
         [
-          "1.2K",
+          "1K",
           1,
           "RES-TH_BD2.2-L6.5-P10.50-D0.6",
           "R3",
@@ -757,7 +720,7 @@
           "10K",
           3,
           "RES-TH_BD2.2-L6.5-P10.50-D0.6",
-          "R6,R7,R8",
+          "R4,R5,R6",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C119263",
@@ -780,14 +743,18 @@
           }
         ],
         [
-          "DIODE-ZENER5V1",
+          "AMS1117-5V",
           1,
-          "DIODE-ZENER",
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
           "U1",
           {
-            "BOM_Manufacturer Part": "",
-            "puuid": "a43ca59882634fb5b64dbe94b2c5e04e",
-            "uuid": "a1846ac68a1949c7a1cdc2c6fb6679d1"
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C845412",
+            "BOM_Manufacturer": "TF",
+            "BOM_Manufacturer Part": "1117-1.8V",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "02ae667aca734971be8a5f58143dd564",
+            "uuid": "0824b23ff8144e4f86e2984cd783e258"
           }
         ],
         [
@@ -808,7 +775,7 @@
           "testpoint",
           16,
           "TESTPAD",
-          "1V1,1V2,1V3,1V4,CE,CLK,M2_EN,M2_IN1,M2_IN2,M2_OUT_1,M2_OUT_2,MCU_RX,MCU_TX,SH,V_M2,V_READINGS",
+          "1V,1.3V,1.8V,CE,CLK,GND,M1_EN,M1_IN1,M1_IN2,M1_OUT_1,M1_OUT_2,MCU_RX,MCU_TX,SH,V_M1,V_READINGS",
           {
             "BOM_Manufacturer": "",
             "BOM_Manufacturer Part": "",
@@ -835,7 +802,7 @@
           "150",
           8,
           "RES-TH_BD2.2-L6.5-P10.50-D0.6",
-          "R9,R10,R11,R15,R16,R17,R21,R22",
+          "R7,R8,R9,R10,R15,R16,R17,R18",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C119263",
@@ -850,7 +817,7 @@
           "51",
           8,
           "RES-TH_BD2.2-L6.5-P10.50-D0.6",
-          "R12,R13,R14,R18,R19,R20,R23,R24",
+          "R11,R12,R13,R14,R19,R20,R21,R22",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C119263",
@@ -916,11 +883,11 @@
           }
         ]
       ],
-      "updateTime": 1658517991,
+      "updateTime": 1659947918,
       "createTime": 1657832292,
       "histories": [],
       "created_at": "2022-07-14 23:58:12",
-      "updated_at": "2022-07-22 22:26:31"
+      "updated_at": "2022-08-08 11:38:38"
     },
     {
       "uuid": "7f39921b28449dc03e8da0f2a9e78949",
@@ -932,27 +899,27 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "b729b819852f4104b24a4c9144913ca1": 16,
+        "e609923febba487d930e816587043b51": 4,
+        "02ae667aca734971be8a5f58143dd564": 1,
+        "666264fd42b84465ad050a9517cab8cf": 22,
         "aeb5072cde544ddbbf3a0f964e1f80dd": 4,
-        "e609923febba487d930e816587043b51": 2,
         "e7b3f7a1511942f8a2237d711411aa9f": 1,
         "4c5d6055469d454d91223f02f77f3a52": 1,
         "c9a5465ae8684a29a982cea27286fe58": 4,
         "de8773bb073d4a3da15a5f7da53b68af": 4,
         "f81d60139e1d495cb16947e44f36d764": 2,
         "03db1a806f584e7e8000f984f718aa6e": 1,
-        "666264fd42b84465ad050a9517cab8cf": 24,
         "3ce14a6b4961469894f0d82b296c83a6": 2,
-        "a43ca59882634fb5b64dbe94b2c5e04e": 1,
         "2665e92154be4f9585bb304aa7a29b20": 1,
-        "1f423f14388b4b17afc87646625a53f6": 1
+        "1f423f14388b4b17afc87646625a53f6": 1,
+        "b729b819852f4104b24a4c9144913ca1": 16
       },
       "BOM": [],
-      "updateTime": 1658520832,
+      "updateTime": 1659951837,
       "createTime": 1657885551,
       "histories": [],
       "created_at": "2022-07-15 14:45:51",
-      "updated_at": "2022-07-22 23:13:52"
+      "updated_at": "2022-08-08 12:43:57"
     }
   ],
   "sort": [
@@ -963,5 +930,5 @@
   "title": "omicronPlatform",
   "foldername": "omicronPlatform",
   "schfilename": "omicronPlatform.json",
-  "schfilemtime": 1658521087798
+  "schfilemtime": 1659951753551
 }
