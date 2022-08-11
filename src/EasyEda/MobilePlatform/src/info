@@ -4,7 +4,7 @@
   "name": "omicronPlatform",
   "content": "",
   "created_at": "2022-07-14 23:58:12",
-  "updated_at": "2022-08-08 12:43:57",
+  "updated_at": "2022-08-11 23:40:19",
   "stick": "",
   "documents": [
     {
@@ -188,9 +188,9 @@
         ],
         [
           "testpoint",
-          16,
+          11,
           "TESTPAD",
-          "3.3V,5V,11.8V,CE,CLK,GND,M2_EN,M2_IN1,M2_IN2,M2_OUT_1,M2_OUT_2,MCU_RX,MCU_TX,SH,V_M2,V_READINGS",
+          "3.3V,5V,11.8V,GND,M2_EN,M2_IN1,M2_IN2,M2_OUT_1,M2_OUT_2,MCU_RX,MCU_TX",
           {
             "BOM_Manufacturer": "",
             "BOM_Manufacturer Part": "",
@@ -214,51 +214,6 @@
           }
         ],
         [
-          "150",
-          8,
-          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
-          "R7,R8,R9,R10,R15,R16,R17,R18",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C119263",
-            "BOM_Manufacturer": "Chian Chia Elec",
-            "BOM_Manufacturer Part": "-",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "666264fd42b84465ad050a9517cab8cf",
-            "uuid": "514dddbe856146039fcd033ae29bc39f"
-          }
-        ],
-        [
-          "51",
-          8,
-          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
-          "R11,R12,R13,R14,R19,R20,R21,R22",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C119263",
-            "BOM_Manufacturer": "Chian Chia Elec",
-            "BOM_Manufacturer Part": "-",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "666264fd42b84465ad050a9517cab8cf",
-            "uuid": "514dddbe856146039fcd033ae29bc39f"
-          }
-        ],
-        [
-          "SN74HC165N",
-          1,
-          "DIP-16_L19.8-W6.5-P2.54-LS7.6-BL",
-          "U3",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "TI",
-            "BOM_Manufacturer Part": "SN74HC165N",
-            "BOM_Supplier Part": "C2909",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "1f423f14388b4b17afc87646625a53f6",
-            "uuid": "427f119159784536b490f25e1734a2b9"
-          }
-        ],
-        [
           "M04JST-PTH",
           4,
           "JST-4-PTH",
@@ -267,20 +222,6 @@
             "BOM_Manufacturer Part": "",
             "puuid": "c9a5465ae8684a29a982cea27286fe58",
             "uuid": "95831707a57345b5a561a15d998cb92e"
-          }
-        ],
-        [
-          "L293D",
-          4,
-          "L293D",
-          "L1,L2,L3,L4",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C504385",
-            "BOM_Manufacturer": "Gcore",
-            "BOM_Manufacturer Part": "L293D",
-            "puuid": "de8773bb073d4a3da15a5f7da53b68af",
-            "uuid": "6dd7345663764eea93a30e32e5b089a2"
           }
         ],
         [
@@ -296,13 +237,27 @@
             "puuid": "aeb5072cde544ddbbf3a0f964e1f80dd",
             "uuid": "6b60977dae874bd7ad4c1bb1037e439d"
           }
+        ],
+        [
+          "satima_s2a",
+          4,
+          "SATTIMA_S2A",
+          "U8,U9,U10,U11",
+          {
+            "BOM_Manufacturer": "0x6flab",
+            "BOM_Manufacturer Part": "satima_s2a",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "c7b711c51195497cac5666b0e8ff2daf",
+            "uuid": "2dc8e90af37f4245bc7669e5d5deba94"
+          }
         ]
       ],
-      "updateTime": 1659951753,
+      "updateTime": 1660249564,
       "createTime": 1657853881,
       "histories": [],
       "created_at": "2022-07-15 05:58:01",
-      "updated_at": "2022-08-08 12:42:33"
+      "updated_at": "2022-08-11 23:26:04"
     },
     {
       "uuid": "053fe54d356aeb63a63b681ccbd4d41f",
@@ -313,9 +268,254 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "3571936591d3447eae8ebe7c26a9fd83": 1,
-        "514dddbe856146039fcd033ae29bc39f": 16,
-        "427f119159784536b490f25e1734a2b9": 1,
-        "63dace8e5fc84aa48fb050b002058c6a": 16
+        "63dace8e5fc84aa48fb050b002058c6a": 11
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10uF",
+          3,
+          "CAP-TH_L5.0-W2.5-P5.08-D0.7",
+          "C1,C2,C3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C254090",
+            "BOM_Manufacturer": "Dersonic",
+            "BOM_Manufacturer Part": "CC1H104ZC14D3F5O10MF",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e609923febba487d930e816587043b51",
+            "uuid": "f545d9c3ddf34f0aab42185f59d87f3a"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "CAP-TH_L5.0-W2.5-P5.08-D0.7",
+          "C4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C254090",
+            "BOM_Manufacturer": "Dersonic",
+            "BOM_Manufacturer Part": "CC1H104ZC14D3F5O10MF",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e609923febba487d930e816587043b51",
+            "uuid": "f545d9c3ddf34f0aab42185f59d87f3a"
+          }
+        ],
+        [
+          "JST_2PIN-THM-RA",
+          1,
+          "JST-PH-2-THM-RA",
+          "CN1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "e7b3f7a1511942f8a2237d711411aa9f",
+            "uuid": "05a6e624ad284de89c87b11cd299b13f"
+          }
+        ],
+        [
+          "BLUEPILL",
+          1,
+          "BLUEPILL",
+          "G$1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "4c5d6055469d454d91223f02f77f3a52",
+            "uuid": "a58c3033836f4ef08df396372f4adb66"
+          }
+        ],
+        [
+          "204-10SUBC/C470/S400-A4",
+          2,
+          "LED-TH_BD4.0-P2.54-FD",
+          "LED1,LED2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C86726",
+            "BOM_Manufacturer": "Everlight Elec",
+            "BOM_Manufacturer Part": "204-10SUBC/C470/S400-A4",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f81d60139e1d495cb16947e44f36d764",
+            "uuid": "71d294718bdf4cc0a93eb2e6656e7b3e"
+          }
+        ],
+        [
+          "100",
+          2,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R1,R2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "1K",
+          1,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "10K",
+          3,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R4,R5,R6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119263",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "TAC_SWITCH",
+          2,
+          "TACTILE-PTH",
+          "S1,S2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "3ce14a6b4961469894f0d82b296c83a6",
+            "uuid": "b073fa5be9fa4a71894dcbda97a795cc"
+          }
+        ],
+        [
+          "AMS1117-5V",
+          1,
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C845412",
+            "BOM_Manufacturer": "TF",
+            "BOM_Manufacturer Part": "1117-1.8V",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "02ae667aca734971be8a5f58143dd564",
+            "uuid": "0824b23ff8144e4f86e2984cd783e258"
+          }
+        ],
+        [
+          "ESP12f",
+          1,
+          "ESP12F",
+          "U2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "2665e92154be4f9585bb304aa7a29b20",
+            "uuid": "9245ecc39a8a4441a6fa007014df13e0"
+          }
+        ],
+        [
+          "testpoint",
+          11,
+          "TESTPAD",
+          "3.3V,5V,11.8V,GND,M2_EN,M2_IN1,M2_IN2,M2_OUT_1,M2_OUT_2,MCU_RX,MCU_TX",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "b729b819852f4104b24a4c9144913ca1",
+            "uuid": "63dace8e5fc84aa48fb050b002058c6a"
+          }
+        ],
+        [
+          "MPU6050",
+          1,
+          "MPU6050",
+          "P1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "03db1a806f584e7e8000f984f718aa6e",
+            "uuid": "3571936591d3447eae8ebe7c26a9fd83"
+          }
+        ],
+        [
+          "M04JST-PTH",
+          4,
+          "JST-4-PTH",
+          "JP1,JP2,JP3,JP4",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "c9a5465ae8684a29a982cea27286fe58",
+            "uuid": "95831707a57345b5a561a15d998cb92e"
+          }
+        ],
+        [
+          "M2 PLATED HOLE WITH MINI HOLES",
+          4,
+          "M2 PLATED HOLE WITH MINI HOLES",
+          "U4,U5,U6,U7",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "aeb5072cde544ddbbf3a0f964e1f80dd",
+            "uuid": "6b60977dae874bd7ad4c1bb1037e439d"
+          }
+        ],
+        [
+          "satima_s2a",
+          4,
+          "SATTIMA_S2A",
+          "U8,U9,U10,U11",
+          {
+            "BOM_Manufacturer": "0x6flab",
+            "BOM_Manufacturer Part": "satima_s2a",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "c7b711c51195497cac5666b0e8ff2daf",
+            "uuid": "2dc8e90af37f4245bc7669e5d5deba94"
+          }
+        ]
+      ],
+      "updateTime": 1660247187,
+      "createTime": 1657854983,
+      "histories": [],
+      "created_at": "2022-07-15 06:16:23",
+      "updated_at": "2022-08-11 22:46:27"
+    },
+    {
+      "uuid": "abc6e77668be36aec0aa2bd48c73451b",
+      "title": "motorDriver",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "95831707a57345b5a561a15d998cb92e": 4,
+        "6b60977dae874bd7ad4c1bb1037e439d": 4,
+        "2dc8e90af37f4245bc7669e5d5deba94": 4
       },
       "BOM": [
         [
@@ -563,20 +763,6 @@
           }
         ],
         [
-          "L293D",
-          4,
-          "L293D",
-          "L1,L2,L3,L4",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C504385",
-            "BOM_Manufacturer": "Gcore",
-            "BOM_Manufacturer Part": "L293D",
-            "puuid": "de8773bb073d4a3da15a5f7da53b68af",
-            "uuid": "6dd7345663764eea93a30e32e5b089a2"
-          }
-        ],
-        [
           "M2 PLATED HOLE WITH MINI HOLES",
           4,
           "M2 PLATED HOLE WITH MINI HOLES",
@@ -589,305 +775,27 @@
             "puuid": "aeb5072cde544ddbbf3a0f964e1f80dd",
             "uuid": "6b60977dae874bd7ad4c1bb1037e439d"
           }
-        ]
-      ],
-      "updateTime": 1659949937,
-      "createTime": 1657854983,
-      "histories": [],
-      "created_at": "2022-07-15 06:16:23",
-      "updated_at": "2022-08-08 12:12:17"
-    },
-    {
-      "uuid": "abc6e77668be36aec0aa2bd48c73451b",
-      "title": "motorDriver",
-      "description": "",
-      "docType": "1",
-      "master": "",
-      "thumb": "/images/thumb-default.png",
-      "components": {
-        "6dd7345663764eea93a30e32e5b089a2": 4,
-        "95831707a57345b5a561a15d998cb92e": 4,
-        "6b60977dae874bd7ad4c1bb1037e439d": 4
-      },
-      "BOM": [
-        [
-          "Value",
-          "Quantity",
-          "Package",
-          "Components",
-          "CustomPara"
         ],
         [
-          "10uF",
-          3,
-          "CAP-TH_L5.0-W2.5-P5.08-D0.7",
-          "C1,C2,C3",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C254090",
-            "BOM_Manufacturer": "Dersonic",
-            "BOM_Manufacturer Part": "CC1H104ZC14D3F5O10MF",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "e609923febba487d930e816587043b51",
-            "uuid": "f545d9c3ddf34f0aab42185f59d87f3a"
-          }
-        ],
-        [
-          "100nF",
-          1,
-          "CAP-TH_L5.0-W2.5-P5.08-D0.7",
-          "C4",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C254090",
-            "BOM_Manufacturer": "Dersonic",
-            "BOM_Manufacturer Part": "CC1H104ZC14D3F5O10MF",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "e609923febba487d930e816587043b51",
-            "uuid": "f545d9c3ddf34f0aab42185f59d87f3a"
-          }
-        ],
-        [
-          "JST_2PIN-THM-RA",
-          1,
-          "JST-PH-2-THM-RA",
-          "CN1",
-          {
-            "BOM_Manufacturer Part": "",
-            "puuid": "e7b3f7a1511942f8a2237d711411aa9f",
-            "uuid": "05a6e624ad284de89c87b11cd299b13f"
-          }
-        ],
-        [
-          "BLUEPILL",
-          1,
-          "BLUEPILL",
-          "G$1",
-          {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
-            "puuid": "4c5d6055469d454d91223f02f77f3a52",
-            "uuid": "a58c3033836f4ef08df396372f4adb66"
-          }
-        ],
-        [
-          "204-10SUBC/C470/S400-A4",
-          2,
-          "LED-TH_BD4.0-P2.54-FD",
-          "LED1,LED2",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C86726",
-            "BOM_Manufacturer": "Everlight Elec",
-            "BOM_Manufacturer Part": "204-10SUBC/C470/S400-A4",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "f81d60139e1d495cb16947e44f36d764",
-            "uuid": "71d294718bdf4cc0a93eb2e6656e7b3e"
-          }
-        ],
-        [
-          "100",
-          2,
-          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
-          "R1,R2",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C119263",
-            "BOM_Manufacturer": "Chian Chia Elec",
-            "BOM_Manufacturer Part": "-",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "666264fd42b84465ad050a9517cab8cf",
-            "uuid": "514dddbe856146039fcd033ae29bc39f"
-          }
-        ],
-        [
-          "1K",
-          1,
-          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
-          "R3",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C119263",
-            "BOM_Manufacturer": "Chian Chia Elec",
-            "BOM_Manufacturer Part": "-",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "666264fd42b84465ad050a9517cab8cf",
-            "uuid": "514dddbe856146039fcd033ae29bc39f"
-          }
-        ],
-        [
-          "10K",
-          3,
-          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
-          "R4,R5,R6",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C119263",
-            "BOM_Manufacturer": "Chian Chia Elec",
-            "BOM_Manufacturer Part": "-",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "666264fd42b84465ad050a9517cab8cf",
-            "uuid": "514dddbe856146039fcd033ae29bc39f"
-          }
-        ],
-        [
-          "TAC_SWITCH",
-          2,
-          "TACTILE-PTH",
-          "S1,S2",
-          {
-            "BOM_Manufacturer Part": "",
-            "puuid": "3ce14a6b4961469894f0d82b296c83a6",
-            "uuid": "b073fa5be9fa4a71894dcbda97a795cc"
-          }
-        ],
-        [
-          "AMS1117-5V",
-          1,
-          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
-          "U1",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C845412",
-            "BOM_Manufacturer": "TF",
-            "BOM_Manufacturer Part": "1117-1.8V",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "02ae667aca734971be8a5f58143dd564",
-            "uuid": "0824b23ff8144e4f86e2984cd783e258"
-          }
-        ],
-        [
-          "ESP12f",
-          1,
-          "ESP12F",
-          "U2",
-          {
-            "BOM_Manufacturer": "",
-            "BOM_Manufacturer Part": "",
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "puuid": "2665e92154be4f9585bb304aa7a29b20",
-            "uuid": "9245ecc39a8a4441a6fa007014df13e0"
-          }
-        ],
-        [
-          "testpoint",
-          16,
-          "TESTPAD",
-          "1V,1.3V,1.8V,CE,CLK,GND,M1_EN,M1_IN1,M1_IN2,M1_OUT_1,M1_OUT_2,MCU_RX,MCU_TX,SH,V_M1,V_READINGS",
-          {
-            "BOM_Manufacturer": "",
-            "BOM_Manufacturer Part": "",
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "puuid": "b729b819852f4104b24a4c9144913ca1",
-            "uuid": "63dace8e5fc84aa48fb050b002058c6a"
-          }
-        ],
-        [
-          "MPU6050",
-          1,
-          "MPU6050",
-          "P1",
-          {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
-            "puuid": "03db1a806f584e7e8000f984f718aa6e",
-            "uuid": "3571936591d3447eae8ebe7c26a9fd83"
-          }
-        ],
-        [
-          "150",
-          8,
-          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
-          "R7,R8,R9,R10,R15,R16,R17,R18",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C119263",
-            "BOM_Manufacturer": "Chian Chia Elec",
-            "BOM_Manufacturer Part": "-",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "666264fd42b84465ad050a9517cab8cf",
-            "uuid": "514dddbe856146039fcd033ae29bc39f"
-          }
-        ],
-        [
-          "51",
-          8,
-          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
-          "R11,R12,R13,R14,R19,R20,R21,R22",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C119263",
-            "BOM_Manufacturer": "Chian Chia Elec",
-            "BOM_Manufacturer Part": "-",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "666264fd42b84465ad050a9517cab8cf",
-            "uuid": "514dddbe856146039fcd033ae29bc39f"
-          }
-        ],
-        [
-          "SN74HC165N",
-          1,
-          "DIP-16_L19.8-W6.5-P2.54-LS7.6-BL",
-          "U3",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "TI",
-            "BOM_Manufacturer Part": "SN74HC165N",
-            "BOM_Supplier Part": "C2909",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "1f423f14388b4b17afc87646625a53f6",
-            "uuid": "427f119159784536b490f25e1734a2b9"
-          }
-        ],
-        [
-          "M04JST-PTH",
+          "satima_s2a",
           4,
-          "JST-4-PTH",
-          "JP1,JP2,JP3,JP4",
+          "SATTIMA_S2A",
+          "U8,U9,U10,U11",
           {
-            "BOM_Manufacturer Part": "",
-            "puuid": "c9a5465ae8684a29a982cea27286fe58",
-            "uuid": "95831707a57345b5a561a15d998cb92e"
-          }
-        ],
-        [
-          "L293D",
-          4,
-          "L293D",
-          "L1,L2,L3,L4",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C504385",
-            "BOM_Manufacturer": "Gcore",
-            "BOM_Manufacturer Part": "L293D",
-            "puuid": "de8773bb073d4a3da15a5f7da53b68af",
-            "uuid": "6dd7345663764eea93a30e32e5b089a2"
-          }
-        ],
-        [
-          "M2 PLATED HOLE WITH MINI HOLES",
-          4,
-          "M2 PLATED HOLE WITH MINI HOLES",
-          "U4,U5,U6,U7",
-          {
-            "BOM_Manufacturer": "",
-            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "0x6flab",
+            "BOM_Manufacturer Part": "satima_s2a",
             "BOM_Supplier Part": "",
             "BOM_Supplier": "",
-            "puuid": "aeb5072cde544ddbbf3a0f964e1f80dd",
-            "uuid": "6b60977dae874bd7ad4c1bb1037e439d"
+            "puuid": "c7b711c51195497cac5666b0e8ff2daf",
+            "uuid": "2dc8e90af37f4245bc7669e5d5deba94"
           }
         ]
       ],
-      "updateTime": 1659947918,
+      "updateTime": 1660245069,
       "createTime": 1657832292,
       "histories": [],
       "created_at": "2022-07-14 23:58:12",
-      "updated_at": "2022-08-08 11:38:38"
+      "updated_at": "2022-08-11 22:11:09"
     },
     {
       "uuid": "7f39921b28449dc03e8da0f2a9e78949",
@@ -899,27 +807,26 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "c7b711c51195497cac5666b0e8ff2daf": 4,
         "e609923febba487d930e816587043b51": 4,
         "02ae667aca734971be8a5f58143dd564": 1,
-        "666264fd42b84465ad050a9517cab8cf": 22,
+        "666264fd42b84465ad050a9517cab8cf": 6,
         "aeb5072cde544ddbbf3a0f964e1f80dd": 4,
         "e7b3f7a1511942f8a2237d711411aa9f": 1,
         "4c5d6055469d454d91223f02f77f3a52": 1,
         "c9a5465ae8684a29a982cea27286fe58": 4,
-        "de8773bb073d4a3da15a5f7da53b68af": 4,
         "f81d60139e1d495cb16947e44f36d764": 2,
         "03db1a806f584e7e8000f984f718aa6e": 1,
         "3ce14a6b4961469894f0d82b296c83a6": 2,
         "2665e92154be4f9585bb304aa7a29b20": 1,
-        "1f423f14388b4b17afc87646625a53f6": 1,
-        "b729b819852f4104b24a4c9144913ca1": 16
+        "b729b819852f4104b24a4c9144913ca1": 11
       },
       "BOM": [],
-      "updateTime": 1659951837,
+      "updateTime": 1660250419,
       "createTime": 1657885551,
       "histories": [],
       "created_at": "2022-07-15 14:45:51",
-      "updated_at": "2022-08-08 12:43:57"
+      "updated_at": "2022-08-11 23:40:19"
     }
   ],
   "sort": [
@@ -930,5 +837,5 @@
   "title": "omicronPlatform",
   "foldername": "omicronPlatform",
   "schfilename": "omicronPlatform.json",
-  "schfilemtime": 1659951753551
+  "schfilemtime": 1660249564954
 }
