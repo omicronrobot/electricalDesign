@@ -2,7 +2,7 @@
 
 Docs, Schematic and Board file for a the Hand Motion Controller.
 
-![Top PCB image](assets/jlcpcb_pcb_top.png)
+![Top PCB image](assets/pcb_top.png)
 
 ## Overview
 

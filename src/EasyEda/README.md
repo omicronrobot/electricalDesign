@@ -10,7 +10,7 @@ In this repo you'll find the following items:
 
 This is the Hand Motion Controller capable to perceive hand motions and send it to the Mobile Platform main Computer.
 
-![Hand Motion Controller](HandMotion/assets/jlcpcb_pcb_top.png)
+![Hand Motion Controller](HandMotion/assets/pcb_top.png)
 
 ### [Mobile Platform main Computer](MobilePlatform/)
 
