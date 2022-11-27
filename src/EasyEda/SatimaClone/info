@@ -4,7 +4,7 @@
   "name": "satima clone",
   "content": "",
   "created_at": "2022-11-27 22:43:05",
-  "updated_at": "2022-11-27 23:23:33",
+  "updated_at": "2022-11-27 23:29:30",
   "stick": "",
   "documents": [
     {
@@ -90,11 +90,11 @@
         "ab5461a8a33a451c8fcecd8fc76c4f65": 1
       },
       "BOM": [],
-      "updateTime": 1669580613,
+      "updateTime": 1669580970,
       "createTime": 1669580613,
       "histories": [],
       "created_at": "2022-11-27 23:23:33",
-      "updated_at": "2022-11-27 23:23:33"
+      "updated_at": "2022-11-27 23:29:30"
     }
   ],
   "sort": [],
