@@ -1,0 +1,105 @@
+{
+  "uuid": "7eceaddf00768631fd7646856d5da75c",
+  "path": "Offline/satima%20clone",
+  "name": "satima clone",
+  "content": "",
+  "created_at": "2022-11-27 22:43:05",
+  "updated_at": "2022-11-27 23:23:33",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "50c51248a5d561793adb06293181e65e",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "0e7cce8ef88b41bf8457c391149322f5": 1,
+        "2dc8e90af37f4245bc7669e5d5deba94": 1,
+        "dab026219c82408fb0787084e7009dbc": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "3 PIN HEADER",
+          1,
+          "HEADER-PINS_2.54_04PIN_01ROW",
+          "P1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "872cece489f64410904d4c2d85f8cd9f",
+            "uuid": "dab026219c82408fb0787084e7009dbc"
+          }
+        ],
+        [
+          "L298N",
+          1,
+          "MULTIWATT-15_L19.6-W5.0-P1.27-L",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C434589",
+            "BOM_Manufacturer": "HGSEMI",
+            "BOM_Manufacturer Part": "L298N",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "96bc7f9d70a04465a355eee581308041",
+            "uuid": "0e7cce8ef88b41bf8457c391149322f5"
+          }
+        ],
+        [
+          "satima_s2a",
+          1,
+          "SATIMA S2A_V1",
+          "U3",
+          {
+            "BOM_Manufacturer": "0x6flab",
+            "BOM_Manufacturer Part": "satima_s2a",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "ab5461a8a33a451c8fcecd8fc76c4f65",
+            "uuid": "2dc8e90af37f4245bc7669e5d5deba94"
+          }
+        ]
+      ],
+      "updateTime": 1669579710,
+      "createTime": 1669578186,
+      "histories": [],
+      "created_at": "2022-11-27 22:43:06",
+      "updated_at": "2022-11-27 23:08:30"
+    },
+    {
+      "uuid": "de28b88359fbb84714ef5724646bfd3e",
+      "puuid": "7eceaddf00768631fd7646856d5da75c",
+      "title": "PCB_satima clone_2",
+      "filename": "PCB_satima clone_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "96bc7f9d70a04465a355eee581308041": 1,
+        "ab5461a8a33a451c8fcecd8fc76c4f65": 1
+      },
+      "BOM": [],
+      "updateTime": 1669580613,
+      "createTime": 1669580613,
+      "histories": [],
+      "created_at": "2022-11-27 23:23:33",
+      "updated_at": "2022-11-27 23:23:33"
+    }
+  ],
+  "sort": [],
+  "title": "satima clone",
+  "foldername": "satima clone",
+  "schfilename": "satima clone.json",
+  "schfilemtime": 1669579710308
+}
